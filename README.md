@@ -1,7 +1,7 @@
 # NativePayload_DIM
 NativePayload_DIM Dynamic native dll Injection in Memory , Injecting Native DLL bytes to local Process
 
-NativePayload_DIM is simple csharp code to loading Native Dll [unmanaged dll] into Managed code [.NET] process without read dll from disk [in-memory only].
+NativePayload_DIM is simple csharp code to loading Native Dll [unmanaged dll] into Managed Processes [.NET Processes] without read dll from disk [in-memory only].
 
 -------------------
 
