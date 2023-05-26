@@ -1,9 +1,9 @@
 # NativePayload_DIM
+
 NativePayload_DIM Dynamic native dll Injection in Memory , Injecting Native DLL bytes to local Process
 
-NativePayload_DIM is simple csharp code to loading Native Dll [unmanaged dll] into Managed Processes [.NET Processes] without read dll from disk [in-memory only].
+Note: `NativePayload_DIM is simple csharp code to loading Native Dll [unmanaged dll] into Managed Processes [.NET Processes] without read dll from disk [in-memory only]` , this will help you to bypass AVs and Blue team tools etc also you can convert this Csharp code to Managed Dll then you can inject this code to any process you want [Native Processes or Managed Processes] and ...
 
--------------------
 
 ### NativePayload_DIM + loading Native Dll "ShellcodeFluctuation.dll" into local process
    ![](https://github.com/DamonMohammadbagher/NativePayload_DIM/blob/main/Pics/ShellcodeFluctuation1.png)
