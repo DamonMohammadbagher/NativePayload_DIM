@@ -26,7 +26,8 @@ ETW Memory Scanner => https://github.com/DamonMohammadbagher/ETWProcessMon2/tree
       Step4: in-memory ShellcodeFluctuation.dll will encode payloads [Sleep-mask + delay] or in-memory with ThreadStackSpoofer.dll you will have stack spoofing with delay 
 
 
-Usage step-by-step:
+----------------------
+#### Usage step-by-step:
 
       Step1: Compile C++ Codes to make Dll files [output should be dll type]
       Step2: rename "callstackspoofer.dll or ShellcodeFluctuation.dll" to NativeCode_SleepMask.bmp
