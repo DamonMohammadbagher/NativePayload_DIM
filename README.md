@@ -6,7 +6,7 @@ Note: `NativePayload_DIM is simple csharp code to loading Native Dll [unmanaged 
 
 in this code i used two old C++ Codes "ShellcodeFluctuation" & "CallStackSpoofer" as Native DLL to inject them into local Managed Process in his case "NativePayload_DIM" and you can see results was good in these pictures.
 
-Note: `C++ Codes for "ShellcodeFluctuation" & "CallStackSpoofer" was changed by me and output of projects changed to dll so you should use these C++ codes in this repo, Function name "run" added into source codes also these codes will download cobaltstrike "payload.bin" via web traffic so we have two change in source codes for these c++ projects` , you can find original source code in below link
+Note: `C++ Codes for "ShellcodeFluctuation" & "CallStackSpoofer" was changed by me and output of projects changed to dll (so you should use these C++ codes in this repo), Function name "run" added into source codes also these codes will download cobaltstrike "payload.bin" via web traffic so we have two change in source codes for these c++ projects` , you can find original source code in below link
 
 C++ Original Source codes:
 
