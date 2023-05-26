@@ -10,6 +10,11 @@ Note: `C++ Codes for "ShellcodeFluctuation" & "CallStackSpoofer" was changed by 
 
 C++ Original Source codes:
 
+ShellcodeFluctuation => https://github.com/mgeeky/ShellcodeFluctuation
+
+ThreadStackSpoofer => https://github.com/mgeeky/ThreadStackSpoofer
+
+
 
 ### NativePayload_DIM + loading Native Dll "ShellcodeFluctuation.dll" into local process
    ![](https://github.com/DamonMohammadbagher/NativePayload_DIM/blob/main/Pics/ShellcodeFluctuation1.png)
