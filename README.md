@@ -14,7 +14,7 @@ ShellcodeFluctuation => https://github.com/mgeeky/ShellcodeFluctuation
 
 ThreadStackSpoofer => https://github.com/mgeeky/ThreadStackSpoofer
 
-Note: `as Blue teamer you can see How this code was detected by my ETW Memory Scanner which called "VirtualMemAllocMon.exe".`
+Note: `as Blue teamer you can see how this code was detected by my ETW Memory Scanner which called "VirtualMemAllocMon.exe".`
 
 ETW Memory Scanner => https://github.com/DamonMohammadbagher/ETWProcessMon2/tree/main/VirtualMemAllocMon
 
