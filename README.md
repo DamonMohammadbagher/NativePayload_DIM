@@ -6,13 +6,21 @@ Note: `NativePayload_DIM is simple csharp code to loading Native Dll [unmanaged 
 
 in this code i used two old C++ Codes "ShellcodeFluctuation" & "CallStackSpoofer" as Native DLL to inject them into local Managed Process in his case "NativePayload_DIM" and you can see results was good in these pictures.
 
-Note: `C++ Codes for "ShellcodeFluctuation" & "CallStackSpoofer" was changed by me, Function name "run" added into source codes also these codes will download cobaltstrike "payload.bin" via web traffic so we have two change in source codes for these c++ projects` , you can find original source code in below link
+Note: `C++ Codes for "ShellcodeFluctuation" & "CallStackSpoofer" was changed by me and output of projects changed to dll, Function name "run" added into source codes also these codes will download cobaltstrike "payload.bin" via web traffic so we have two change in source codes for these c++ projects` , you can find original source code in below link
 
 C++ Original Source codes:
 
 ShellcodeFluctuation => https://github.com/mgeeky/ShellcodeFluctuation
 
 ThreadStackSpoofer => https://github.com/mgeeky/ThreadStackSpoofer
+
+
+#### NativePayload_DIM background step-by-step
+
+      Step1: Native dll bytes from web downloaded via bmp extension loaded into local process in-memory [ShellcodeFluctuation.dll or ThreadStackSpoofer.dll renamed to bmp extension]
+      Step2: Native dll after loading in local process [Managed process] will call Funcation name "run" and this function will get payload.bin from web
+      Step3: in-memory that payload.bin will run also [cobaltstrike session established]
+      Step4: in-memory ShellcodeFluctuation.dll will encode payloads [Sleep-mask + delay] or in-memory with ThreadStackSpoofer.dll you will have stack spoofing with delay 
 
 
 
